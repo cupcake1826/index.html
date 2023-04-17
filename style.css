@@ -1,0 +1,76 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    color: black
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 290px;
+
+}
+
+.bar {
+    text-align: center;
+}
+
+.card-text {
+    font-size: 0.6rem;
+    padding-top: 0%;
+
+}
+
+.bar1 {
+    text-align: center;
+    background-color: grey;
+    height: 40px;
+    padding-top: 4px;
+    margin-top: 10px;
+}
+
+.card {
+    width: 100%;
+    height: 5%;
+}
+
+.btn {
+    border-radius: 0%;
+    font-size: 13px;
+}
+
+.fw-light {
+    width: 80%;
+    padding-left: 300px;
+}
+@media only screen and (max-width: 1450px) {
+    .bg-image{
+        height: 100%;
+        overflow: hidden;
+
+    }
+     .fw-light{
+        font-size: 40px; 
+        width: 100%;
+        margin: auto;
+        display: inline;
+    }
+    .card{
+        width: 100%;
+        
+    }
+    .card-block h6{
+    
+        font-size: 30px;
+    }
+    .card-block p{
+        font-size: 20px;
+
+    }
+    .card-block a{  
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+}
